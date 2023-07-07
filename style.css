@@ -1,0 +1,98 @@
+li{
+    text-decoration: none;
+}
+
+button{
+    text-decoration: none;
+} 
+
+.navbar{
+    background: rgb(14, 12, 12); font-family: Calibri; padding-right: 15px; padding-left: 15px;
+}
+
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+
+li{
+    list-style: none; display: inline-block;
+}
+
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+
+button{
+    background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+
+button a{
+    color: white; font-weight: bold; font-size: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    /*width: 50px;*/
+}
+
+.wrapper  * {
+    padding: 10px;
+    margin: 10px;
+    flex:  1 100%;
+    border-radius: 10px;
+}
+
+.header {
+    background: rgba(236, 176, 107, 0.808);
+    height: 450px;
+
+}
+
+
+.main{
+    text-align: left;
+    background: deepskyblue;
+    text-align: center;
+    height: 300px;
+    font-size: 50px;
+}
+
+@media all and (min-width: 800px){
+    .main{
+        flex: 3;
+    }
+
+    .main{
+        order: 2;
+    }
+}
+
+.new{
+    text-align: left;
+    background: white;
+    text-align: center;
+    height: 300px;
+    font-size: 40px;
+}
+}
+
+.good{
+    text-align: right;
+    text-decoration: wavy;
+    background-color: darkblue;
+}
+
+.puzzle{
+    text-align: left;
+    background: white;
+    text-align: center;
+    height: 300px;
+    font-size: 40px;
+}
+}
